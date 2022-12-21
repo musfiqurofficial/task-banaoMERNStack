@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.card {
+  height: 280px !important;
+}
+.card:hover {
+  box-shadow: 0 0 8px #c5c4c4;
+}
+.user-image {
+  width: 100px;
+  margin: 0 auto;
+}
+
+#intro-example {
+  height: 400px;
+}
+
+@media (min-width: 992px) {
+  #intro-example {
+    height: 500px;
+  }
+}
+.bg-image {
+  background-image: url("https://images.unsplash.com/photo-1604737771065-7ce2dc4ba3e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1954&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
